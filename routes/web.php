@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+//HomeController
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::controller(HomeController::class)->group(function(){
+    //Route::get('/dashboard/department/list','index')->name('department.index');
 });
