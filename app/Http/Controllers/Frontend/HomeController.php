@@ -39,7 +39,7 @@ class HomeController extends Controller
     public function ContactUs(Request $request){
         $data = $request->all();
         // Send the email
-        Mail::to('ap0690158@gmail.com')->send(new ContactUsMail($data));
+        Mail::to('admin456@yopmail.com')->send(new ContactUsMail($data));
         return back()->with('success', 'Your message has been sent successfully!');
 
     }
