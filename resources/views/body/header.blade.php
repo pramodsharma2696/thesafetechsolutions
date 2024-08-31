@@ -7,8 +7,8 @@
                     <!-- brand logo -->
                     <div class="header__logo">
                         <a href="{{ url('/')}}">
-                            <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.jpeg" width="160" height="48" class="img-fluid light-logo" alt="">
-                            <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.jpeg" width="160" height="48" class="img-fluid dark-logo" alt="">
+                            <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.png" width="160" height="48" class="img-fluid light-logo" alt="">
+                            <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.png" width="160" height="48" class="img-fluid dark-logo" alt="">
                         </a>
                     </div>
 
@@ -97,7 +97,9 @@
                             </form>
                         </div>
                         <div class="client-access">
-                            <a href="{{ url('/login')}}" target="_blank">Client Access</a>
+                            <a href="javascript:void(0)" id="contact-us">Contact us </a>
+                            
+                            
                         </div>
 
                         <!-- mobile menu -->

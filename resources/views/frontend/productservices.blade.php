@@ -2,17 +2,22 @@
 @section('contents')
 <style>
     .service-card{
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
         padding: 15px;
+        border-radius: 10px;
     }
+    .service-card:hover {
+    background: #4870c3;
+    color: #333;
+}
 </style>
 <div class="container my-5">
    <!-- Services Title -->
-   <h1 class="mb-10 text-center text-black">Product Services</h1>
+   <h1 class="mb-10 text-center text-black">Product Services</h1> 
    <div class="service-card-section scroll-margin pt-120 mb-120" id="service-section" style="margin-top: 60px;">
       <div class="container">
          <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>CRM</h4>
@@ -35,7 +40,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Prop Trading Tech</h4>
@@ -58,7 +63,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>MT5 API's</h4>
@@ -81,7 +86,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Reconciliation Tool</h4>
@@ -104,7 +109,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Swap Management</h4>
@@ -127,7 +132,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Deposit Bonus Plugin</h4>
@@ -150,7 +155,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Brokers Copier</h4>
@@ -173,7 +178,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>Social Trading</h4>
@@ -196,7 +201,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms;">
                <div class="service-card">
                   <div class="content">
                      <h4>MAMM</h4>
@@ -219,7 +224,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-delay: 200ms; animation-name: none;">
+            <div class="col-lg-6 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-delay: 200ms; animation-name: none;">
                <div class="service-card">
                   <div class="content">
                      <h4>PAMM</h4>

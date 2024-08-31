@@ -42,38 +42,6 @@
             	</svg>
             </section>
             
-            <!--============ Infotechno Hero End ============-->
-            <!--=========== fun fact Wrapper Start ==========-->
-            <!-- <div class="fun-fact-wrapper bg-theme-three" style="padding-top:20px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 wow move-up">
-                            <div class="fun-fact--five text-center" style="margin-bottom:20px;">
-                            <div class="fun-fact__count"><span class="counter">22</span><span>+</span></div>
-                                <h6 class="fun-fact__text">Industries Catered</h6>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 wow move-up">
-                            <div class="fun-fact--five text-center" style="margin-bottom:20px;">
-                            <div class="fun-fact__count"><span class="counter">7</span><span> Cr+</span></div>
-                                <h6 class="fun-fact__text">Account Reached</h6>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 wow move-up">
-                            <div class="fun-fact--five text-center" style="margin-bottom:20px;">
-                            <div class="fun-fact__count"><span class="counter">150</span><span>+</span></div>
-                                <h6 class="fun-fact__text">Projects Delivered</h6>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 wow move-up">
-                            <div class="fun-fact--five text-center" style="margin-bottom:20px;">
-                                <div class="fun-fact__count"><span class="counter">2500</span><span>Cr+</span></div>
-                                <h6 class="fun-fact__text">Revenue Handled</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <!--=========== fun fact Wrapper End ==========-->
 
             <!--=========== About Company Area Start ==========-->
@@ -119,7 +87,8 @@
                             <div class="machine-learning-about-content">
                                 <div class="section-title mb-20">
                                     <h4>Innovate within your existing workflow</h4>
-                                    <p class="dec-text mt-20" align="justify">The Safetech Solutions is a web design and development company in Mumbai, India that prioritizes client satisfaction, innovation, and a profitable return on investment (Money making business models). We work at the nexus of functional and technological skills to support our clients' growth and create cutting-edge business strategies.</p>
+                                    <p class="dec-text mt-20" align="justify">
+                                    The Safetech Solutions is a web design and development company in Mumbai, India, that prioritizes client satisfaction, innovation, and a profitable return on investment through effective business models. We blend functional and technological skills to support our clients' growth with cutting-edge business strategies. Our services include web and mobile development, IT consulting, cloud solutions, and cybersecurity, ensuring businesses are secure, efficient, and future-ready.</p>
                                     <div class="button-box mt-30">
                                         <a href="javascript:void(0)" class="ht-btn ht-btn-md contact-us">Talk to a consultant</a>
                                     </div>
@@ -486,50 +455,7 @@
                             </div>
                         </div>
 
-                        <!-- <div class="col-lg-7 ms-auto">
-                            <div class="contact-form-service-wrap">
-                                <div class="contact-title text-center section-space--mb_30">
-                                    <h5 class="mb-10">Need a hand?</h5>
-                                    <p class="text">Reach out to the world’s most reliable IT services.</p>
-                                </div>
-
-                                <form class="contact-form" id="contact-form-2" action="https://whizthemes.com/mail-php/jowel/mitech/php/services-mail.php" method="post">
-                                <form class="contact-form" id="contact-form-2" action="assets/php/services-mail.php" method="post">
-                                    <div class="contact-form__two">
-                                        <div class="contact-input">
-                                            <div class="contact-inner">
-                                                <input name="con_name" type="text" placeholder="Name *">
-                                            </div>
-                                            <div class="contact-inner">
-                                                <input name="con_email" type="email" placeholder="Email *">
-                                            </div>
-                                        </div>
-                                        <div class="contact-select">
-                                            <div class="form-item contact-inner">
-                                                <span class="inquiry">
-                                    <select id="Visiting" name="Visiting">
-                                        <option disabled selected>Select Department to email</option>
-                                        <option value="Your inquiry about">Your inquiry about</option>
-                                        <option value="General Information Request">General Information Request</option>
-                                        <option value="Partner Relations">Partner Relations</option>
-                                        <option value="Careers">Careers</option>
-                                        <option value="Software Licencing">Software Licencing</option>
-                                    </select>
-
-                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="contact-inner contact-message">
-                                            <textarea name="con_message" placeholder="Please describe what you need."></textarea>
-                                        </div>
-                                        <div class="comment-submit-btn">
-                                            <button class="ht-btn ht-btn-md" type="submit">Send message</button>
-                                            <p class="form-messege-2"></p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div> -->
+                       
 
                     </div>
                 </div>
@@ -537,95 +463,7 @@
 
             
                         
-            <!--============ Contact Us Area End =================-->
-            <!--===========  Projects wrapper Start =============-->
-            <!-- <div class="projects-wrapper machine-learning-project-bg section-space--ptb_30">
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title-wrap text-center section-space--mb_20">
-                                <h6 class="section-sub-title mb-1">Case studies</h6>
-                                <h5 class="heading">Our projects make us proud</span></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <a href="#" class="projects-wrap style-01 wow move-up">
-                                <div class="projects-image-box">
-                                    <div class="projects-image">
-                                        <img class="img-fluid" src="{{ asset('') }}assets/images/projects/case-study-01-480x298.webp" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="heading">Healthy Meal Services</h6>
-                                        <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                                        </div>
-                                        <div class="box-projects-arrow">
-                                            <span class="button-text">View case study</span>
-                                            <i class="fa fa-long-arrow-right ml-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <a href="#" class="projects-wrap style-01 wow move-up">
-                                <div class="projects-image-box">
-                                    <div class="projects-image">
-                                        <img class="img-fluid" src="{{ asset('') }}assets/images/projects/case-study-01-480x298.webp" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="heading">Healthy Meal Services</h6>
-                                        <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                                        </div>
-                                        <div class="box-projects-arrow">
-                                            <span class="button-text">View case study</span>
-                                            <i class="fa fa-long-arrow-right ml-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <a href="#" class="projects-wrap style-01 wow move-up">
-                                <div class="projects-image-box">
-                                    <div class="projects-image">
-                                        <img class="img-fluid" src="{{ asset('') }}assets/images/projects/case-study-01-480x298.webp" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="heading">Health care</h6>
-                                        <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                                        </div>
-                                        <div class="box-projects-arrow">
-                                            <span class="button-text">View case study</span>
-                                            <i class="fa fa-long-arrow-right ml-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <a href="#" class="projects-wrap style-01 wow move-up">
-                                <div class="projects-image-box">
-                                    <div class="projects-image">
-                                        <img class="img-fluid" src="{{ asset('') }}assets/images/projects/case-study-01-480x298.webp" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="heading">Real Estate</h6>
-                                        <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                                        </div>
-                                        <div class="box-projects-arrow">
-                                            <span class="button-text">View case study</span>
-                                            <i class="fa fa-long-arrow-right ml-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+           
             <!--===========  Projects wrapper End =============-->
             <!--===========  Projects wrapper Start =============-->
             <div class="mobile-menu-overlay" id="mobile-menu-overlay">

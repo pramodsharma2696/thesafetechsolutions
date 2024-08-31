@@ -74,7 +74,7 @@
     <style>
     .header__logo > a img {
         width: 181px !important;
-        height: 71px !important;
+        height: 60px !important;
     /* width: 110px; */
 }
 </style>
@@ -107,14 +107,15 @@
                                 </div>
 
                                 <!-- <form class="contact-form" id="contact-form-2" action="https://whizthemes.com/mail-php/jowel/mitech/php/services-mail.php" method="post"> -->
-                                <form class="contact-form" action="#" method="post">
+                                <form class="contact-form" action="{{ route('contactus') }}" method="post">
+                                    @csrf
                                     <div class="contact-form__two">
                                         <div class="contact-input">
                                             <div class="contact-inner">
-                                                <input name="con_name" type="text" placeholder="Name *">
+                                                <input name="name" type="text" placeholder="Name *" required>
                                             </div>
                                             <div class="contact-inner">
-                                                <input name="con_email" type="email" placeholder="Email *">
+                                                <input name="email" type="email" placeholder="Email *" required>
                                             </div>
                                             
                                         </div>
@@ -144,7 +145,7 @@
                                             </div>
                                         </div>
                                         <div class="contact-inner contact-message">
-                                            <textarea name="con_message" placeholder="Please describe what you need."></textarea>
+                                            <textarea name="message" placeholder="Please describe what you need."></textarea>
                                         </div>
                                         <div class="comment-submit-btn text-center">
                                             <button class="ht-btn ht-btn-md" type="submit">Send message</button>
@@ -179,7 +180,7 @@
                             <!-- logo -->
                             <div class="logo">
                                 <a href="{{ asset('') }}">
-                                    <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.jpeg" class="img-fluid" alt="">
+                                    <img src="{{ asset('') }}assets/img/logo/logo-dv-full-w.png" class="img-fluid" alt="">
                                 </a>
                             </div>
                         </div>

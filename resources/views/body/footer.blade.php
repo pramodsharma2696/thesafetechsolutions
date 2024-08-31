@@ -4,7 +4,7 @@
                     <div class="row footer-widget-wrapper">
                         <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                             <div class="footer-widget__logo mb-30">
-                                <img src="{{ asset('') }}assets/img/logo/dv-logo-w.jpeg" width="160" height="48" class="img-fluid" alt="">
+                                <img src="{{ asset('') }}assets/img/logo/dv-logo-w.png" width="160" height="48" class="img-fluid" alt="">
                             </div>
                             <ul class="footer-widget__list">
                                 <li class="text-black">A-202 Twin Arcade , Military Road , Marol Naka , Andheri East , Mumbai</li>
@@ -19,7 +19,7 @@
                             <ul class="footer-widget__list">
                                 <li><a href="{{ url('/services') }}" class="hover-style-link text-black"><span>Our Services</span></a></li>
                                 <li><a href="{{ url('/product-services') }}" class="hover-style-link text-black"><span>Product Services</span></a></li>
-                                <li><a href="{{ url('/financial-technology-setup') }}" class="hover-style-link text-black"><span>IFinancial Technology Setup</span></a></li>
+                                <li><a href="{{ url('/financial-technology-setup') }}" class="hover-style-link text-black"><span>Financial Technology Setup</span></a></li>
                                 
                             </ul>
                         </div>
@@ -36,12 +36,7 @@
                             <h6 class="footer-widget__title text-black mb-20">Quick links</h6>
                             <ul class="footer-widget__list">
                                 <li><a href="#" class="hover-style-link text-black">FAQ</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Blog</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Why Choose</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Payment Policy</a></li>
-                                <li><a href="#" class="hover-style-link text-black">MOU Policy</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Terms and Condition Policy</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Refund and Cancellaton Policy</a></li>
+                                
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -73,32 +68,32 @@
                             <ul class="list ht-social-networks solid-rounded-icon">
 
                                 <li class="item">
-                                    <a href="https://www.facebook.com/safetech/" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-facebook-f text-black link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://www.instagram.com/safetech/?hl=en" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-instagram text-black link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://www.linkedin.com/company/14555995/admin/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.linkedin.com" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-linkedin text-black link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://twitter.com/safetech" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-twitter text-black link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://www.behance.net/dynamic-vishva" target="_blank" aria-label="Behance" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.behance.net" target="_blank" aria-label="Behance" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-behance text-black link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://www.youtube.com/@safetech3035" target="_blank" aria-label="Youtube" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.youtube.com" target="_blank" aria-label="Youtube" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-youtube text-black link-icon"></i>
                                     </a>
                                 </li>

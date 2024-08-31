@@ -2877,7 +2877,7 @@ input[type=checkbox] {
   top: 100%;
   left: 0;
   box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
-  border-bottom: 3px solid #F69221;
+  border-bottom: 3px solid #fff;
   background-color: #ffffff;
   transform: translateY(50px);
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -13169,7 +13169,7 @@ ol.process-chart > li {
 
 ol.process-chart > li:before,
 ol.process-chart > li > div:before {
-  color: #f89422;
+  color: #fff;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }

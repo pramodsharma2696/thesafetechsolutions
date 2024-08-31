@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Frontend;
 
-use App\Http\Controllers\Controller;
+use App\Mail\ContactUsMail;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -33,5 +35,12 @@ class HomeController extends Controller
     }
     public function EcommerceMobileApp(){
         return view('frontend.ecommercemobileapp');
+    }
+    public function ContactUs(Request $request){
+        $data = $request->all();
+        // Send the email
+        Mail::to('admin456@yopmail.com')->send(new ContactUsMail($data));
+        return back()->with('success', 'Your message has been sent successfully!');
+
     }
 }

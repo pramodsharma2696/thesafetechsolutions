@@ -29,5 +29,6 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/ecommerce-website','EcommerceWebsite')->name('ecommercewebsite');
     Route::get('/inventory-billing','InventoryBilling')->name('inventorybilling');
     Route::get('/ecommerce-mobile-app','EcommerceMobileApp')->name('ecommercemobileapp');
+    Route::post('/contact-us','ContactUs')->name('contactus');
 
 });
