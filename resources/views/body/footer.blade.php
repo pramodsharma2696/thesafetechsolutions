@@ -7,7 +7,10 @@
                                 <img src="{{ asset('') }}assets/img/logo/dv-logo-w.png" width="160" height="48" class="img-fluid" alt="">
                             </div>
                             <ul class="footer-widget__list">
-                                <li class="text-black">A-202 Twin Arcade , Military Road , Marol Naka , Andheri East , Mumbai</li>
+                                <li class="text-black">Unit Num 7-B, Crescent Industrial Estate, near Nepolion
+Garment Building, Chinchpada, Vasai East,
+Mumbai,
+Maharashtra, India - 401208</li>
                                 <li><a href="mailto:www.thesafetechsolutions.com" class="hover-style-link text-black">www.thesafetechsolutions.com</a></li>
                                 <li><a href="tel:9082107333" class="hover-style-link text-black font-weight--bold">+91 9082107333</a></li>
                                 <li><a href="mailto:support@thesafetechsolutions.com" class="hover-style-link text-black font-weight--bold">support@thesafetechsolutions.com</a></li>
