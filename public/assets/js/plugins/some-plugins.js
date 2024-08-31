@@ -1142,7 +1142,7 @@ $(function() {
 			$(formMessages).addClass('success');
 
 			// Set the message text.
-			$(formMessages).text(response);
+			$(formMessages).text(response.success);
 
 			// Clear the form.
 			$('#contact-form input,#contact-form textarea').val('');

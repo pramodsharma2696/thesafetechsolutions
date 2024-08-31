@@ -98,8 +98,6 @@
                         </div>
                         <div class="client-access">
                             <a href="javascript:void(0)" id="contact-us">Contact us </a>
-                            
-                            
                         </div>
 
                         <!-- mobile menu -->

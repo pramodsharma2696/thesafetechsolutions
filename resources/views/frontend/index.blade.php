@@ -549,7 +549,7 @@
 
                             </ul>
                         </li>
-                        <li><a href="cases-2.html">Cases</a></li>
+                        <!-- <li><a href="cases-2.html">Cases</a></li>
                         <li class="has-children">
                             <a href="javascript:void(0)">Resource</a>
                             <ul class="sub-menu">
@@ -558,10 +558,11 @@
                                 <li><a href="faq.html"><span>FAQs</span></a></li>
                                 <li><a href="#"><span>Blog</span></a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="client-access client-access-mobile text-center">
-                            <a href="login.html" target="_blank">Client Access</a>
+                    <a href="javascript:void(0)" id="contact-us" onclick="document.querySelector('.form-popup').classList.add('active');">Contact us</a>
+
                         </div>
                 </nav>
             </div>

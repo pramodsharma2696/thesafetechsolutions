@@ -361,7 +361,7 @@
 
 <!-- Some plugins JS -->
 <script src="{{ asset('') }}assets/js/plugins/some-plugins.js"></script>
-
+@stack('scripts')
 
 <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from avobe) -->
 
