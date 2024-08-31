@@ -15,46 +15,43 @@
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 class="footer-widget__title text-black mb-20">Products</h6>
+                            <h6 class="footer-widget__title text-black mb-20">Services</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="go-to-market-tool.html" class="hover-style-link text-black"><span>Go To Market Tool</span></a></li>
-                                <li><a href="food-ordering-system.html" class="hover-style-link text-black"><span>Food Ordering System</span></a></li>
-                                <li><a href="influencer-loyalty-system-for-oem.html" class="hover-style-link text-black"><span>Influencer-Loyalty System for OEM</span></a></li>
-                                <li><a href="laundry-management-system.html" class="hover-style-link text-black"><span>Laundry Management System</span></a></li>
-                                <li><a href="complaint-management-tool.html" class="hover-style-link text-black"><span>Complaint Management Tool</span></a></li>
+                                <li><a href="{{ url('/services') }}" class="hover-style-link text-black"><span>Our Services</span></a></li>
+                                <li><a href="{{ url('/product-services') }}" class="hover-style-link text-black"><span>Product Services</span></a></li>
+                                <li><a href="{{ url('/financial-technology-setup') }}" class="hover-style-link text-black"><span>IFinancial Technology Setup</span></a></li>
+                                
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title text-black mb-20">Solutions</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="cms-website.html" class="hover-style-link text-black">Web Development</a></li>
-                                <li><a href="e-commerce-mobile-app.html" class="hover-style-link text-black">Mobile App Development</a></li>
-                                <li><a href="ecommerce-Integration.html" class="hover-style-link text-black">Integrations</a></li>
-                                <!-- <li><a href="software-support.php" class="hover-style-link text-black">Software Support</a></li> -->
-                                <li><a href="offshore-development-centre.html" class="hover-style-link text-black">White Lable Projects</a></li>
+                                <li><a href="{{ url('/cmswebsite')}}" class="hover-style-link text-black">CMS Website</a></li>
+                                <li><a href="{{ url('/webportals')}}" class="hover-style-link text-black">Web Portals</a></li>
+                                <li><a href="{{ url('/ecommerce-website')}}" class="hover-style-link text-black">Ecommerce Website</a></li>
+                                <li><a href="{{ url('/inventory-billing')}}" class="hover-style-link text-black">Inventory & Billing Software</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title text-black mb-20">Quick links</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="faq.html" class="hover-style-link text-black">FAQ</a></li>
+                                <li><a href="#" class="hover-style-link text-black">FAQ</a></li>
                                 <li><a href="#" class="hover-style-link text-black">Blog</a></li>
-                                <li><a href="about-us.html" class="hover-style-link text-black">Why Choose</a></li>
-                                <li><a href="payment-policy.html" class="hover-style-link text-black">Payment Policy</a></li>
-                                <li><a href="mou-policy.html" class="hover-style-link text-black">MOU Policy</a></li>
-                                <li><a href="terms-and-conditions.html" class="hover-style-link text-black">Terms and Condition Policy</a></li>
-                                <li><a href="refund-and-cancellaton-policy.html" class="hover-style-link text-black">Refund and Cancellaton Policy</a></li>
+                                <li><a href="#" class="hover-style-link text-black">Why Choose</a></li>
+                                <li><a href="#" class="hover-style-link text-black">Payment Policy</a></li>
+                                <li><a href="#" class="hover-style-link text-black">MOU Policy</a></li>
+                                <li><a href="#" class="hover-style-link text-black">Terms and Condition Policy</a></li>
+                                <li><a href="#" class="hover-style-link text-black">Refund and Cancellaton Policy</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title text-black mb-20">Stay Tuned</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="https://www.facebook.com/safetech/" target="_blank" class="hover-style-link text-black">Facebook</a></li>
-                                <li><a href="https://www.instagram.com/safetech/?hl=en" target="_blank" class="hover-style-link text-black">Instagram</a></li>
-                                <li><a href="https://www.linkedin.com/company/14555995/admin/" target="_blank" class="hover-style-link text-black">Linkedin</a></li>
-                                <li><a href="https://twitter.com/safetech" target="_blank"  class="hover-style-link text-black">Twitter</a></li>
-                                <li><a href="https://www.behance.net/dynamic-vishva" target="_blank" class="hover-style-link text-black">Behance</a></li>
-                                <li><a href="#" class="hover-style-link text-black">Blogs</a></li>
+                                <li><a href="https://www.facebook.com" target="_blank" class="hover-style-link text-black">Facebook</a></li>
+                                <li><a href="https://www.instagram.com" target="_blank" class="hover-style-link text-black">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com" target="_blank" class="hover-style-link text-black">Linkedin</a></li>
+                                <li><a href="https://twitter.com" target="_blank"  class="hover-style-link text-black">Twitter</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -70,7 +67,7 @@
 
                     <div class="row align-items-center">
                         <div class="col-md-6 text-center text-md-start">
-                            <span class="copyright-text text-black">&copy; 2023 The Safetech Solutions. <a href="https://hasthemes.com/">All Rights Reserved.</a></span>
+                            <span class="copyright-text text-black">&copy; 2024 The Safetech Solutions. <a href="#">All Rights Reserved.</a></span>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <ul class="list ht-social-networks solid-rounded-icon">
