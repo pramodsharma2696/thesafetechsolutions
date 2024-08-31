@@ -1,5 +1,6 @@
 @extends('master')
 @section('contents')
+
 <div class="site-wrapper-reveal">
             
             <section class="banner__slider">
@@ -221,12 +222,12 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
                             <div class="conact-us-wrap-three">
-                                <h6 class="mb-3 section-sub-title text-white">OUR SOLUTION</h6>
-                                <h4 class="heading text-white"><span class="text-color-primary">Unlock</span> the full potential of your customer relationships</h4>
+                                <h6 class="mb-3 section-sub-title text-white hideme">OUR SOLUTION</h6>
+                                <h4 class="heading text-white hideme"><span class="text-color-primary">Unlock</span> the full potential of your customer relationships</h4>
                             </div>
                             <div class="contact-info-two mt-40 text-left">
                                 <div class="contact-us-button mt-20">
-                                    <a href="tel:9082107333" class="btn btn--secondary">Contact us</a>
+                                    <a href="javascript:void(0)" class="btn btn--secondary hideme" id="contact-us" onclick="document.querySelector('.form-popup').classList.add('active');">Contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -569,7 +570,7 @@
         </div>
     </div>            <!--===========  Projects wrapper End =============-->
             <!--=========== Testimonials Area Start =============-->
-            <div class="demo">
+            <div class="demo d-none">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -619,7 +620,7 @@
 
 
             <!--====================  brand logo slider area ====================-->
-            <div class="brand-logo-slider-area section-space--ptb_60">
+            <div class="brand-logo-slider-area section-space--ptb_60 d-none">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
