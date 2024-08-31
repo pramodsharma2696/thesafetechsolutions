@@ -252,8 +252,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
                             <div class="conact-us-wrap-three">
-                                <h6 class="mb-3 section-sub-title text-black">OUR SOLUTION</h6>
-                                <h4 class="heading text-black"><span class="text-color-primary">Unlock</span> the full potential of your customer relationships</h4>
+                                <h6 class="mb-3 section-sub-title text-white">OUR SOLUTION</h6>
+                                <h4 class="heading text-white"><span class="text-color-primary">Unlock</span> the full potential of your customer relationships</h4>
                             </div>
                             <div class="contact-info-two mt-40 text-left">
                                 <div class="contact-us-button mt-20">
@@ -426,7 +426,7 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
                                         <div class="contact-info-title-wrap text-center">
-                                            <h3 class="heading text-black">4.6/5.0</h3>
+                                            <h3 class="heading text-white">4.6/5.0</h3>
                                             <div class="ht-star-rating lg-style">
                                                 <span class="fa fa-star"></span>
                                                 <span class="fa fa-star"></span>
@@ -434,7 +434,7 @@
                                                 <span class="fa fa-star"></span>
                                                 <span class="fa fa-star-half-alt"></span>
                                             </div>
-                                            <p class="sub-text text-black">by 150+ clients</p>
+                                            <p class="sub-text text-white">by 150+ clients</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 my-auto">
@@ -442,12 +442,12 @@
                                             <a href="tel:9082107333" class="single-contact-list">
                                                 <div class="content-wrap">
                                                     <div class="content">
-                                                        <div class="icon text-black">
+                                                        <div class="icon text-white">
                                                             <span class="fal fa-phone"></span>
                                                         </div>
                                                         <div class="main-content">
-                                                            <h6 class="heading text-black">Call for advice now!</h6>
-                                                            <h6 class="name text-black">+91 9082107333</h6>
+                                                            <h6 class="heading text-white">Call for advice now!</h6>
+                                                            <h6 class="name text-white">+91 9082107333</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -456,15 +456,15 @@
                                     </div>
                                     <div class="col-lg-3 col-md-6 my-auto">
                                         <div class="contact-list-item">
-                                            <a href="mailto:www.thesafetechsolutions.in" class="single-contact-list">
+                                            <a href="mailto:www.thesafetechsolutions.com" class="single-contact-list">
                                                 <div class="content-wrap">
                                                     <div class="content">
-                                                        <div class="icon text-black">
+                                                        <div class="icon text-white">
                                                             <span class="fal fa-envelope"></span>
                                                         </div>
                                                         <div class="main-content">
-                                                            <h6 class="heading text-black">Say hello</h6>
-                                                            <h6 class="name text-black">www.thesafetechsolutions.in</h6>
+                                                            <h6 class="heading text-white">Say hello</h6>
+                                                            <h6 class="name text-white">www.thesafetechsolutions.com</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -654,25 +654,23 @@
                 <nav class="offcanvas-navigation">
                     <ul>
                         <li class="has-children">
-                            <a href="index-2.html">Home</a>
+                            <a href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="has-children">
                             <a href="#">Company</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html"><span>About Us</span></a></li>
-                                <li><a href="leadership.html"><span>Leadership Team</span></a></li>
-                                <li><a href="technology-stack.html"><span>Technology Stack</span></a></li>
-                                <li><a href="why-choose-us.html"><span>Why choose us</span></a></li>
+                                <li><a href="#"><span>About Us</span></a></li>
+                                <li><a href="#"><span>Leadership Team</span></a></li>
+                                <li><a href="#"><span>Technology Stack</span></a></li>
+                                <li><a href="#"><span>Why choose us</span></a></li>
                             </ul>
                         </li>
                         <li class="has-children">
-                            <a href="#">Products</a>
+                            <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="go-to-market-tool.html"><span>Go To Market Tool</span></a></li>
-                                <li><a href="food-ordering-system.html"><span>Food Ordering System</span></a></li>
-                                <li><a href="influencer-loyalty-system-for-oem.html"><span>Influencer-Loyalty System for OEM</span></a></li>
-                                <li><a href="laundry-management-system.html"><span>Laundry Management System</span></a></li>
-                                <li><a href="complaint-management-tool.html"><span>Complaint Management Tool</span></a></li>
+                                <li><a href="{{ url('/services') }}"><span>Our Services</span></a></li>
+                                <li><a href="{{ url('/product-services') }}"><span>Product Services</span></a></li>
+                                <li><a href="{{ url('/financial-technology-setup') }}"><span>Financial Technology Setup</span></a></li>                            
                             </ul>
                         </li>
                         <li class="has-children">
@@ -681,16 +679,16 @@
                                 <li class="has-children">
                                     <a href="#">Web Development</a>
                                     <ul class="sub-menu">
-                                        <li><a href="cms-website.html"><span class="text-black">CMS Website</span></a></li>
-                                        <li><a href="web-portals.html"><span class="text-black">Web Portals</span></a></li>
-                                        <li><a href="ecommerce-website.html"><span class="text-black">Ecommerce Website</span></a></li>
-                                        <li><a href="inventory-and-billing-software.html"><span class="text-black">Inventory & Billing Software</span></a></li>
+                                        <li><a href="{{ url('/cmswebsite')}}"><span class="text-black">CMS Website</span></a></li>
+                                        <li><a href="{{ url('/webportals')}}"><span class="text-black">Web Portals</span></a></li>
+                                        <li><a href="{{ url('/ecommerce-website')}}"><span class="text-black">Ecommerce Website</span></a></li>
+                                        <li><a href="{{ url('/inventory-billing')}}"><span class="text-black">Inventory & Billing Software</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="has-children">
                                     <a href="#">Mobile App Development</a>
                                     <ul class="sub-menu">
-                                        <li><a href="e-commerce-mobile-app.html"><span class="text-black">E-Commerce Mobile App</span></a></li>
+                                        <li><a href="{{ url('/ecommerce-mobile-app')}}"><span class="text-black">E-Commerce Mobile App</span></a></li>
                                         <li><a href="android-mobile-app.html"><span class="text-black">Android Mobile App</span></a></li>
                                         <li><a href="ios-mobile-app.html"><span class="text-black">IOS Mobile App</span></a></li>
                                         <li><a href="hybrid-mobile-app.html"><span class="text-black">Hybrid Mobile App</span></a></li>

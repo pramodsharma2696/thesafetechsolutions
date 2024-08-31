@@ -1160,26 +1160,26 @@
     =            reveal footer active            =
     =============================================*/
     
-    var revealId = $(".reveal-footer"),
-        $mainWrapper = revealId.closest("#main-wrapper"),
-        $window = $(window);
-    function footerFixed(){
-        var heightFooter = revealId.outerHeight(),
-            windowWidth = $window.width();
-        if (windowWidth > 991) {
-            $mainWrapper.css({
-                'padding-bottom': heightFooter + 'px'
-            });
-        } else if(windowWidth <= 991) {
-            $mainWrapper.css({
-                'padding-bottom': '0px'
-            });
-        }
-    }
-    footerFixed();
-    $(window).on('resize', function(){
-        footerFixed();
-    });
+    // var revealId = $(".reveal-footer"),
+    //     $mainWrapper = revealId.closest("#main-wrapper"),
+    //     $window = $(window);
+    // function footerFixed(){
+    //     var heightFooter = revealId.outerHeight(),
+    //         windowWidth = $window.width();
+    //     if (windowWidth > 991) {
+    //         $mainWrapper.css({
+    //             'padding-bottom': heightFooter + 'px'
+    //         });
+    //     } else if(windowWidth <= 991) {
+    //         $mainWrapper.css({
+    //             'padding-bottom': '0px'
+    //         });
+    //     }
+    // }
+    // footerFixed();
+    // $(window).on('resize', function(){
+    //     footerFixed();
+    // });
 
 
     /* ====================================

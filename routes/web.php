@@ -19,5 +19,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::controller(HomeController::class)->group(function(){
-    //Route::get('/dashboard/department/list','index')->name('department.index');
+    Route::get('/services','Services')->name('services');
+    Route::get('/product-services','ProductServices')->name('productservices');
+    Route::get('/financial-technology-setup','FinancialTechnologySetup')->name('financialtechnologysetup');
+
+    #Web Development
+    Route::get('/cmswebsite','CmsWebsite')->name('cmswebsite');
+    Route::get('/webportals','WebPortals')->name('webportals');
+    Route::get('/ecommerce-website','EcommerceWebsite')->name('ecommercewebsite');
+    Route::get('/inventory-billing','InventoryBilling')->name('inventorybilling');
+    Route::get('/ecommerce-mobile-app','EcommerceMobileApp')->name('ecommercemobileapp');
+
 });

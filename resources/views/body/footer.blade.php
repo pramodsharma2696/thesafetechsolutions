@@ -8,9 +8,10 @@
                             </div>
                             <ul class="footer-widget__list">
                                 <li class="text-black">A-202 Twin Arcade , Military Road , Marol Naka , Andheri East , Mumbai</li>
-                                <li><a href="mailto:www.thesafetechsolutions.in" class="hover-style-link text-black">www.thesafetechsolutions.in</a></li>
+                                <li><a href="mailto:www.thesafetechsolutions.com" class="hover-style-link text-black">www.thesafetechsolutions.com</a></li>
                                 <li><a href="tel:9082107333" class="hover-style-link text-black font-weight--bold">+91 9082107333</a></li>
-                                <li><a href="index.html" class="hover-style-link text-black">www.thesafetechsolutions.in</a></li>
+                                <li><a href="mailto:support@thesafetechsolutions.com" class="hover-style-link text-black font-weight--bold">support@thesafetechsolutions.com</a></li>
+                                <li><a href="index.html" class="hover-style-link text-black">www.thesafetechsolutions.com</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -60,7 +61,13 @@
                 </div>
             </div>
             <div class="footer-copyright-area section-space--pb_30">
-                <div class="container">
+                <div class="container">                
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                           <p><b>Disclaimer</b>: This website disclaimer for TheSafetechSolutions serves to clarify that the information provided on the website is for general informational purposes only and does not constitute financial advice. While efforts are made to ensure accuracy, TheSafetechSolutions does not guarantee the completeness or reliability of the content, reserving the right to update or remove information without prior notice. Third-party links included on the site are not endorsed, and users are advised to review external sites terms and privacy policies. TheSafetechSolutions, its affiliates, and contributors are not liable for any damages arising from the use of the website. The intellectual property rights of the site's content belong to TheSafetechSolutions, and any reproduction or exploitation requires written permission. Users are encouraged to periodically review this disclaimer for changes. The disclaimer is governed by the laws of the specified jurisdiction, with any disputes subject to the jurisdiction's courts. For inquiries, users can contact TheSafetechSolutions via the provided email address. Use of the website implies acceptance of these terms and conditions.</p>
+                        </div>
+                    </div>
+
                     <div class="row align-items-center">
                         <div class="col-md-6 text-center text-md-start">
                             <span class="copyright-text text-black">&copy; 2023 The Safetech Solutions. <a href="https://hasthemes.com/">All Rights Reserved.</a></span>
